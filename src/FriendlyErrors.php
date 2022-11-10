@@ -5,6 +5,10 @@ class FriendlyErrors
 	public static function checkImagePath($image)
 	{
 		if (file_exists($image)) return;
+        if (filter_var($image, FILTER_VALIDATE_URL)) {
+            $headers = @get_headers($image);
+            if (strpos($headers[0], '200')) return;
+        }
 
 		$currentDir = __DIR__;
 		$msg = array();

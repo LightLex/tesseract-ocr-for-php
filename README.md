@@ -1,18 +1,4 @@
-<img src="https://thiagoalessio.github.io/tesseract-ocr-for-php/images/logo.png" alt="Tesseract OCR for PHP" align="right" width="320px"/>
-
-# Tesseract OCR for PHP
-
-A wrapper to work with Tesseract OCR inside PHP.
-
-[![CI][ci_badge]][ci]
-[![AppVeyor][appveyor_badge]][appveyor]
-[![Codacy][codacy_badge]][codacy]
-[![Test Coverage][test_coverage_badge]][test_coverage]
-<br/>
-[![Latest Stable Version][stable_version_badge]][packagist]
-[![Total Downloads][total_downloads_badge]][packagist]
-[![Monthly Downloads][monthly_downloads_badge]][packagist]
-
+### FORK from ```thiagoalessio/tesseract_ocr```
 ## Installation
 
 Via [Composer][]:

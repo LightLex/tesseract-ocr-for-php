@@ -1,5 +1,5 @@
 {
-	"name": "thiagoalessio/tesseract_ocr",
+	"name": "lightlex/tesseract-ocr-for-php",
 	"description": "A wrapper to work with Tesseract OCR inside PHP.",
 	"version": "2.12.0",
 	"type": "library",
